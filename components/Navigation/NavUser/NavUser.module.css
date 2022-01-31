@@ -1,0 +1,31 @@
+.container {
+  height: 56px;
+  width: 56px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.main {
+  background-color: whitesmoke;
+  border: 1px solid rgba(128, 128, 128, 0.527);
+  border-radius: 5px;
+  padding: 5px;
+  height: 55px;
+  width: 55px;
+  margin: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img {
+  height: 50px;
+  width: 50px;
+}
+.actions {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: red;
+  width: fit-content;
+  height: 100%;
+}

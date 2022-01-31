@@ -1,0 +1,142 @@
+.container {
+  width: 100vw;
+  height: calc(100vh - 56px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+}
+.main {
+  animation: myAnim 1s ease 0s 1 normal forwards;
+  height: fit-content;
+  width: 500px;
+  background-color: white;
+  border-radius: 10px;
+  margin: auto;
+
+  padding: 20px;
+}
+.header {
+  text-align: center;
+}
+.loginForm {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+@media only screen and (max-width: 600px) {
+  .main {
+    width: 95%;
+  }
+}
+.email {
+  animation: myAnim 0.5s ease 0s 1 normal forwards;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.password {
+  -webkit-animation: myAnim 0.5s ease 0s 1 normal forwards;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+}
+@keyframes myAnim {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes myAnim2 {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.failedContainer {
+  animation: myAnim2 1s ease 0s 1 normal forwards;
+
+  /* animation: shake 600ms ease 0s 1 normal forwards; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.failedBox {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbf6b3;
+  border-radius: 30px;
+}
+.failedText {
+  font-weight: 400;
+
+  font-size: 25px;
+}
+@keyframes shake {
+  0%,
+  100% {
+    transform: rotate(0deg);
+    transform-origin: 50% 100%;
+  }
+
+  10% {
+    transform: rotate(2deg);
+  }
+
+  20%,
+  40%,
+  60% {
+    transform: rotate(-4deg);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: rotate(4deg);
+  }
+
+  80% {
+    transform: rotate(-2deg);
+  }
+
+  90% {
+    transform: rotate(2deg);
+  }
+}
+.exit {
+  padding: 0;
+  margin: 0;
+  justify-content: left;
+  text-align: right;
+}

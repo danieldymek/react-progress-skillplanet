@@ -1,0 +1,10 @@
+.btn {
+  background-color: green;
+  display: flex;
+  width: 80px;
+  height: 80%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: none;
+}

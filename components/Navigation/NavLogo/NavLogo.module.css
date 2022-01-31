@@ -1,0 +1,21 @@
+.container {
+  height: fit-content;
+  width: fit-content;
+}
+.main {
+  height: 56px;
+  display: flex;
+  align-items: center;
+}
+.logoText {
+  margin-left: 10px;
+  width: fit-content;
+  height: 100%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.img {
+  height: 56px;
+}

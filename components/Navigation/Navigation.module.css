@@ -1,0 +1,17 @@
+.container {
+  height: 56px;
+  width: 100vw;
+}
+.main {
+  height: inherit;
+  width: 100vw;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.5px solid rgb(110, 110, 110);
+  border-top: 0.5px solid rgb(110, 110, 110);
+}
+.navItems {
+  height: 100%;
+}

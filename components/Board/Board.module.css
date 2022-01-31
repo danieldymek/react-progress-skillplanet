@@ -1,0 +1,20 @@
+.container {
+  width: 100vw;
+  height: calc(100vh - 56px);
+  /* animation: myAnim 500ms ease 0s 1 normal forwards; */
+  background-color: lightgray;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+@keyframes myAnim {
+  0% {
+    opacity: 0;
+    transform: translateX(-250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

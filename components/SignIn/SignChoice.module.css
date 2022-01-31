@@ -1,0 +1,59 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+.login {
+  /* background-color: red; */
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.register {
+  /* background-color: blue; */
+
+  border-left: 0.5px lightgray solid;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.card {
+  animation: myAnim 0.5s ease 0s 1 normal forwards;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: white;
+  width: 80%;
+  padding: 25px;
+  height: 500px;
+  border-radius: 25px;
+}
+@keyframes myAnim {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 95%;
+  }
+}

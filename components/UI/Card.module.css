@@ -1,0 +1,28 @@
+.card {
+  animation: myAnim 0.5s ease 0s 1 normal forwards;
+
+  background-color: white;
+  width: 50%;
+  height: 500px;
+  border-radius: 25px;
+  padding: 40px;
+}
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 90%;
+  }
+  .main {
+    width: 100%;
+  }
+}
+@keyframes myAnim {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

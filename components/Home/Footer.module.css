@@ -1,0 +1,42 @@
+.container {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.main {
+  display: flex;
+  width: 100%;
+  height: 85px;
+  position: absolute;
+  bottom: 0%;
+
+  text-align: center;
+
+  background-color: #ffe11b9b;
+  flex-direction: column;
+}
+.content {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.header {
+  margin: 0;
+  color: whitesmoke;
+  background-color: #221f00;
+  width: 100%;
+  height: 30px;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  border-radius: 15px;
+}
