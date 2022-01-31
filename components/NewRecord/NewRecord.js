@@ -47,7 +47,7 @@ const NewRecord = () => {
         throw new Error("Data transfer failed");
       }
     };
-    // sendData();
+    sendData();
     dispatch(storageActions.resetAll());
     setIsConfirmed(true);
     dispatch(uiActions.toggleSuccessModal());
